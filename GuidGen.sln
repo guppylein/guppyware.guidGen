@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidGen", "GuidGen\GuidGen.csproj", "{CA9EFFC6-B39B-4182-AE68-5989167FA9E1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidGenRestoreFocus", "GuidGenRestoreFocus\GuidGenRestoreFocus.csproj", "{B10FBCCA-29E9-4BCB-9D42-595632B5F9F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +15,11 @@ Global
 		{CA9EFFC6-B39B-4182-AE68-5989167FA9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA9EFFC6-B39B-4182-AE68-5989167FA9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA9EFFC6-B39B-4182-AE68-5989167FA9E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B10FBCCA-29E9-4BCB-9D42-595632B5F9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B10FBCCA-29E9-4BCB-9D42-595632B5F9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B10FBCCA-29E9-4BCB-9D42-595632B5F9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B10FBCCA-29E9-4BCB-9D42-595632B5F9F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E840CAF7-78E9-45FA-BA29-17B5FB2D319D}
 	EndGlobalSection
 EndGlobal
