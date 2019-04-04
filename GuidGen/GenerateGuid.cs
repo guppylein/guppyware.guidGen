@@ -12,20 +12,17 @@ namespace GuidGen
 
         private void GenerateGuid_Load(object sender, EventArgs e)
         {
-            this.Left = Screen.PrimaryScreen.WorkingArea.Width - this.Width - 10;
-            this.Top = Screen.PrimaryScreen.WorkingArea.Height - this.Height - 10;
+            Left = Screen.PrimaryScreen.WorkingArea.Width - Width - 10;
+            Top = Screen.PrimaryScreen.WorkingArea.Height - Height - 10;
+        }
 
-            string guid = Guid.NewGuid().ToString();
-            Clipboard.SetText(guid);
-
+        public void ShowGuid(string guid)
+        {
             lblGuidGenerated.Text = $"GUID \"{guid}\" generiert!";
+            Show();
 
-            //ToolTip hint = new ToolTip();
-            //hint.IsBalloon = true;
-            //hint.ToolTipTitle = "GUID wurde generiert";
-            //hint.ToolTipIcon = ToolTipIcon.Info;
-            //hint.Show(string.Empty, this, 0);
-            //hint.Show(lblGuidGenerated.Text, this, 0, 0);
+            if (timWaitTimer.Enabled)
+                timWaitTimer.Enabled = false;
 
             timWaitTimer.Enabled = true;
         }
@@ -34,8 +31,7 @@ namespace GuidGen
         {
             timWaitTimer.Enabled = false;
 
-            Application.Exit();
+            Hide();
         }
-
     }
 }

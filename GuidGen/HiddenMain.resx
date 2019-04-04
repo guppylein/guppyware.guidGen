@@ -117,11 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="hashtag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\hashtag-whitesmoke.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="notifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>130, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPXKjv/19fX/nM31/wAAAADXpUP/9fX1/8Lq9f8QEIf/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADXqUv/9fX1/8Lq9f8QEIf/s2QQ//X13//n9fX/EHK6/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGFVPP9hZGH/uoVh//X15//n9fX/YYjC/5xkYf/17sn/9fX1/3Cw
+        3/9hZGH/WmRh/xAwS/8AAAAAAAAAAAAAAAD1yo7/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
+        9f/19fX/9fX1//X19f9Lqdf/AAAAAAAAAAAAAAAA16lL//X19f/19fX/9fX1//X19f/19fX/9fX1//X1
+        9f/19fX/9fX1//X19f/19fX/nM31/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANepS//19fX/wur1/xAQ
+        h/+zZBD/9fXf/+f19f8Qcrr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzZBD/9fXf/+f1
+        9f8Qcrr/hxAQ//Xqwv/19fX/S6nX/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPXKjv/19fX/9fX1//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1/0up1/8AAAAAAAAAAAAAAADXqUv/9fX1//X1
+        9f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f+c0fX/AAAAAAAAAAAAAAAASzAQ/2Fk
+        Wv9hZGH/37Bw//X19f/J7vX/YWSc/7qAYf/19d//5/X1/2GMwv9hZGH/PFVh/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALpyEP/19ef/5/X1/xByuv+HEBD/9erC//X19f9Lqdf/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACHEBD/9erC//X19f9Dpdf/AAAAAPXNnP/19fX/nM31/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAP//AADiHwAA4B8AAIADAACAAwAAgAMAAPAPAADwDwAAwAEAAMABAADAAQAA+AcAAPhH
+        AAD//wAA//8AAA==
+</value>
   </data>
-  <data name="hashtag_highlighted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\hashtag-cornflowerblue.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="timWaitTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>254, 17</value>
+  </metadata>
 </root>

@@ -57,8 +57,10 @@
             this.Controls.Add(this.lblGuidGenerated);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GenerateGuid";
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.GenerateGuid_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

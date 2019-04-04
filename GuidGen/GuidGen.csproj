@@ -34,27 +34,33 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
     <Compile Include="GenerateGuid.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GenerateGuid.Designer.cs">
       <DependentUpon>GenerateGuid.cs</DependentUpon>
     </Compile>
+    <Compile Include="GuidGenerator.cs" />
+    <Compile Include="HiddenMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HiddenMain.Designer.cs">
+      <DependentUpon>HiddenMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotkeyManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GenerateGuid.resx">
       <DependentUpon>GenerateGuid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HiddenMain.resx">
+      <DependentUpon>HiddenMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -64,6 +70,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +84,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Icons\hashtag-cornflowerblue.ico" />
+    <Content Include="Images\Icons\hashtag-grey.ico" />
+    <Content Include="Images\Icons\hashtag-whitesmoke.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
