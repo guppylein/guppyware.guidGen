@@ -1,4 +1,4 @@
-﻿namespace GuidGen
+﻿namespace Guppyware.GuidGen
 {
     public static class Constants
     {

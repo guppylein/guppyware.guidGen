@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace GuidGen
+namespace Guppyware.GuidGen
 {
     internal static class Program
     {

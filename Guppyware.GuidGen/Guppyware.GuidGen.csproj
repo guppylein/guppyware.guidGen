@@ -7,8 +7,8 @@
     <ProjectGuid>{CA9EFFC6-B39B-4182-AE68-5989167FA9E1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GuidGen</RootNamespace>
-    <AssemblyName>GuidGen</AssemblyName>
+    <RootNamespace>Guppyware.GuidGen</RootNamespace>
+    <AssemblyName>Guppyware.GuidGen</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidGen", "GuidGen\GuidGen.csproj", "{CA9EFFC6-B39B-4182-AE68-5989167FA9E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guppyware.GuidGen", "Guppyware.GuidGen\Guppyware.GuidGen.csproj", "{CA9EFFC6-B39B-4182-AE68-5989167FA9E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

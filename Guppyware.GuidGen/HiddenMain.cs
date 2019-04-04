@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using GuidGen.Properties;
+using Guppyware.GuidGen.Properties;
 
-namespace GuidGen
+namespace Guppyware.GuidGen
 {
     public partial class HiddenMain : Form
     {
