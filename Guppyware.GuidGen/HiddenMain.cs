@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using Guppyware.GuidGen.Data;
 using Guppyware.GuidGen.Properties;
 
 namespace Guppyware.GuidGen
@@ -18,6 +19,8 @@ namespace Guppyware.GuidGen
             hotkeyManager.GlobalHotKeyPressed += HotKeyManager_GlobalHotKeyPressed;
 
             RegisterHotKey(hotkeyManager.Handle, 567, Constants.CTRL + Constants.ALT, (int) Keys.PrintScreen);
+
+            LoadWellKnownGuids();
         }
 
         [DllImport("user32.dll")]
@@ -25,6 +28,38 @@ namespace Guppyware.GuidGen
 
         [DllImport("user32.dll")]
         public static extern bool UnregisterHotKey(IntPtr hWnd, int id);
+
+        private void LoadWellKnownGuids()
+        {
+            var guidLoader = new GuidLoader();
+            guidLoader.Load();
+
+            var wellKnownGuids = guidLoader.WellKnownGuids;
+            foreach(var wellKnownGuid in wellKnownGuids)
+            {
+                var subItem = new ToolStripMenuItem(wellKnownGuid.Name);
+                subItem.Tag = wellKnownGuid.Id;
+                subItem.Click += SubItem_Click;
+                mnuWellKnownGuids.DropDownItems.Add(subItem);
+            }
+        }
+
+        private void SubItem_Click(object sender, EventArgs e)
+        {
+            var item = sender as ToolStripMenuItem;
+            if (item == null)
+            {
+                return;
+            }
+
+            var guid = Guid.Parse(item.Tag.ToString());
+            Clipboard.SetText(guid.ToString());
+
+            if (GuidGeneratedForm == null)
+                GuidGeneratedForm = new GenerateGuid();
+
+            GuidGeneratedForm.ShowGuid(guid.ToString());
+        }
 
         private void GenerateGuid()
         {

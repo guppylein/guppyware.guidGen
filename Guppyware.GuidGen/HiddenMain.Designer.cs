@@ -36,6 +36,7 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.timWaitTimer = new System.Windows.Forms.Timer(this.components);
+            this.mnuWellKnownGuids = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,9 +53,10 @@
             this.contextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuGenerateGuid,
             this.toolStripMenuItem1,
+            this.mnuWellKnownGuids,
             this.mnuExit});
             this.contextMenu.Name = "contextMenu";
-            this.contextMenu.Size = new System.Drawing.Size(234, 76);
+            this.contextMenu.Size = new System.Drawing.Size(234, 98);
             // 
             // mnuGenerateGuid
             // 
@@ -82,6 +84,12 @@
             this.timWaitTimer.Interval = 1000;
             this.timWaitTimer.Tick += new System.EventHandler(this.timWaitTimer_Tick);
             // 
+            // mnuWellKnownGuids
+            // 
+            this.mnuWellKnownGuids.Name = "mnuWellKnownGuids";
+            this.mnuWellKnownGuids.Size = new System.Drawing.Size(233, 22);
+            this.mnuWellKnownGuids.Text = "Well-known guids";
+            // 
             // HiddenMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -106,5 +114,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem mnuExit;
         private System.Windows.Forms.Timer timWaitTimer;
+        private System.Windows.Forms.ToolStripMenuItem mnuWellKnownGuids;
     }
 }
