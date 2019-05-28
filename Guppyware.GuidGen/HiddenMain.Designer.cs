@@ -54,25 +54,26 @@
             this.toolStripMenuItem1,
             this.mnuExit});
             this.contextMenu.Name = "contextMenu";
-            this.contextMenu.Size = new System.Drawing.Size(155, 54);
+            this.contextMenu.Size = new System.Drawing.Size(234, 76);
             // 
             // mnuGenerateGuid
             // 
             this.mnuGenerateGuid.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.mnuGenerateGuid.Name = "mnuGenerateGuid";
-            this.mnuGenerateGuid.Size = new System.Drawing.Size(154, 22);
+            this.mnuGenerateGuid.ShortcutKeyDisplayString = "AltGr+Druck";
+            this.mnuGenerateGuid.Size = new System.Drawing.Size(233, 22);
             this.mnuGenerateGuid.Text = "Generate guid";
             this.mnuGenerateGuid.Click += new System.EventHandler(this.mnuGenerateGuid_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(151, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(230, 6);
             // 
             // mnuExit
             // 
             this.mnuExit.Name = "mnuExit";
-            this.mnuExit.Size = new System.Drawing.Size(154, 22);
+            this.mnuExit.Size = new System.Drawing.Size(233, 22);
             this.mnuExit.Text = "Exit";
             this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
             // 

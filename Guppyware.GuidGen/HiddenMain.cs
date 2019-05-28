@@ -31,7 +31,7 @@ namespace Guppyware.GuidGen
             if (timWaitTimer.Enabled)
                 timWaitTimer.Enabled = false;
 
-            notifyIcon.Icon = Resources.hashtag_highlighted;
+            notifyIcon.Icon = Resources.guidgen_highlighted;
             timWaitTimer.Enabled = true;
 
             var guid = GuidGenerator.Generate();
@@ -69,7 +69,7 @@ namespace Guppyware.GuidGen
         {
             timWaitTimer.Enabled = false;
 
-            notifyIcon.Icon = Resources.hashtag;
+            notifyIcon.Icon = Resources.guidgen;
         }
     }
 }

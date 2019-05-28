@@ -86,6 +86,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Images\Icons\guidgen.ico" />
+    <None Include="Images\Icons\guidgen-highlighted.ico" />
     <Content Include="Images\Icons\hashtag-cornflowerblue.ico" />
     <Content Include="Images\Icons\hashtag-grey.ico" />
     <Content Include="Images\Icons\hashtag-whitesmoke.ico" />
