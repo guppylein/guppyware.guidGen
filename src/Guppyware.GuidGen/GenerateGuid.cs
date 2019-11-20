@@ -16,6 +16,17 @@ namespace Guppyware.GuidGen
             Top = Screen.PrimaryScreen.WorkingArea.Height - Height - 10;
         }
 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                var cp = base.CreateParams;
+                // turn on WS_EX_TOOLWINDOW style bit (which hides window from Alt + Tab)
+                cp.ExStyle |= 0x80;
+                return cp;
+            }
+        }
+
         public void ShowGuid(string guid)
         {
             lblGuidGenerated.Text = $"GUID \"{guid}\" generiert!";

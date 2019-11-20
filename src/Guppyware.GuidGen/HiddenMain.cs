@@ -23,6 +23,17 @@ namespace Guppyware.GuidGen
             LoadWellKnownGuids();
         }
 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                var cp = base.CreateParams;
+                // turn on WS_EX_TOOLWINDOW style bit (which hides window from Alt + Tab)
+                cp.ExStyle |= 0x80;
+                return cp;
+            }
+        }
+
         [DllImport("user32.dll")]
         public static extern bool RegisterHotKey(IntPtr hWnd, int id, int fsModifiers, int vlc);
 

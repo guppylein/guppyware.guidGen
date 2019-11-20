@@ -59,7 +59,7 @@
             this.Name = "GenerateGuid";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Form1";
+            this.Text = "GenerateGuid";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.GenerateGuid_Load);
             this.ResumeLayout(false);
